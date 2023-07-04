@@ -1,5 +1,4 @@
 import sys
-
 from setuptools import find_packages, setup
 from setuptools.command.develop import develop
 from setuptools.command.install import install
@@ -153,7 +152,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         "dm-tree==0.1.7",
-        "gym==0.21.0",
+        "gym==0.26.2",
         "imageio==2.9.0",
         "jupyter==1.0.0",
         "karateclub==1.3.0",
@@ -166,7 +165,7 @@ setup(
         _ray_3_beta_rllib_py_platform_pip_install(),
         "scipy==1.9.2",
         "seaborn==0.12.1",
-        "stable_baselines3==1.6.2",
+        "stable_baselines3",
         "tabulate==0.8.9",
         "tensorboard==2.11.0",
         "torch==1.12.1",
