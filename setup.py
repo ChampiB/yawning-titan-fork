@@ -152,7 +152,6 @@ setup(
     packages=find_packages(),
     install_requires=[
         "dm-tree==0.1.7",
-        "gym==0.26.2",
         "imageio==2.9.0",
         "jupyter==1.0.0",
         "karateclub==1.3.0",
