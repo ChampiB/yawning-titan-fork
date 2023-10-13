@@ -166,8 +166,8 @@ setup(
         "seaborn==0.12.1",
         "stable_baselines3",
         "tabulate==0.8.9",
-        "tensorboard==2.11.0",
-        "torch==1.12.1",
+        "tensorboard==2.12.0",
+        "torch==2.0.0",
         "typing-extensions==4.4.0",
     ],
     extras_require={
