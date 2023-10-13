@@ -141,7 +141,7 @@ def _ray_3_beta_rllib_py_platform_pip_install() -> str:
 
 
 setup(
-    name="yawningtitan",
+    name="yawning_titan",
     maintainer="Defence Science and Technology Laboratory UK",
     maintainer_email="oss@dstl.gov.uk",
     url="https://github.com/dstl/YAWNING-TITAN",
